@@ -8,6 +8,6 @@ import seaborn as sns
 df = pd.read_csv('iris.csv', delimiter=";")
 
 # Afficher les premières lignes du jeu de données
-print(df.head())
+st.text(df.head())
 
 
